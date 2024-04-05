@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./main.css">
+  <title>Milk Shoes</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Milk Shoes</h1>
+      <nav class="nav-container">
+        <ul class="menu">
+          <li>Sobre a loja</li>
+          <li>Produtos</li>
+        </ul>
+        <div class="clear"></div>
+      </nav>
+    </div>
+      <!-- <h1>Milk Shoes</h1>
+    <div class="botao-menu">
+      <button type="button">Abrir Menu</button>
+    </div>
+     -->
+  </header>
+  <div class="container conteudo">
+    <main>
+      <section class="section-loja">
+        <article class="loja">
+          <a href="#"><img src="./images/loja-foto.jpeg" /></a>
+          <div class="loja-container">
+            <h2>Sobre a loja</h2>
+          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit explicabo aperiam accusantium asperiores odit perferendis autem laborum eaque delectus sunt, tenetur magni id corrupti nesciunt dicta suscipit numquam, reiciendis voluptatem!</h3>
+          </div>
+        </article>
+      </section>
+      <section>
+        <h2>Produtos</h2>
+        <div class="produtos">
+          <article class="card">
+            <a href="#"><img src="./images/airforce.jpeg" /></a>
+            <h3>Air Force 1 '07</h3>
+            <p>Tênis Nike Air Force 1 '07, disponível nos tamanhos 38, 39, 40, 41, 42.</p>
+            <button>Adicionar ao carrinho</button>
+          </article>
+          <article class="card">
+            <a href="#"><img src="./images/Jordan1High.jpeg" /></a>
+            <h3>Air Jordan 1 Panda</h3>
+            <p>Tênis Nike Air Jordan 1 Panda, disponível nos tamanhos 38, 39, 40, 41, 42.</p>
+            <button>Adicionar ao carrinho</button>
+          </article>
+          <article class="card">
+            <a href="#"><img src="./images/Jordan1Low.jpg" /></a>
+            <h3>Jordan 1 Low Travis Scott</h3>
+            <p>Tênis Jordan 1 Low Travis Scott, disponível nos tamanhos 38, 39, 40, 41, 42.</p>
+            <button>Adicionar ao carrinho</button>
+          </article>
+          <article class="card">
+            <a href="#"><img src="./images/tatum.jpeg" /></a>
+            <h3>Jordan 1 Tatum</h3>
+            <p>Tênis Jordan 1 Tatum, disponível nos tamanhos 38, 39, 40, 41, 42.</p>
+            <button>Adicionar ao carrinho</button>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function() {
+      $('.botao-menu button').click(function(){
+        $('menu').slideToggle();
+      })
+    })
+  </script>
+</body>
+</html>
